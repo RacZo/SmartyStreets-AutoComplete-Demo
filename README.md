@@ -4,8 +4,7 @@ Demo app for my SmartyStreets autocomplete gradle library.
 
 ![Autocomplete Demo](screenshots/autocomplete-demo.png)
 
-![Get it on Google Play](google-play-badge.png)
-
+[![Get it on Google Play](google-play-badge.png)](https://play.google.com/store/apps/details?id=com.oscarsalguero.smartystreetsautocomplete.demo)
 
 ## Library
 
