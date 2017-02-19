@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="smartystreetsautocomplete-0.0.2">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.oscarsalguero/smartystreetsautocomplete/0.0.2/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.oscarsalguero/smartystreetsautocomplete/0.0.2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/oscarsalguero/smartystreetsautocomplete/0.0.2/smartystreetsautocomplete-0.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
