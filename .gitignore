@@ -26,8 +26,11 @@ proguard/
 # Log Files
 *.log
 
-# Android Studio Navigation editor temp files
-.navigation/
+# Mac OS X clutter
+*.DS_Store
+
+# Windows clutter
+Thumbs.db
 
 # intellij/android studio
 target
@@ -37,6 +40,9 @@ gen-external-apklibs
 captures/
 .navigation/
 
+# Properties files
+*.properties
+
 # Gradle
 build/
 api/build/
@@ -45,6 +51,7 @@ android/build/
 
 # Keystore files
 *.jks
+*.kestore
 
 # Proguard outputs
 android/config/mapping.txt
