@@ -29,12 +29,24 @@ proguard/
 # Android Studio Navigation editor temp files
 .navigation/
 
-# Android Studio captures folder
-captures/
-
-# Intellij
+# intellij/android studio
+target
+.idea
 *.iml
-.idea/workspace.xml
+gen-external-apklibs
+captures/
+.navigation/
+
+# Gradle
+build/
+api/build/
+android/build/
+.gradle
 
 # Keystore files
 *.jks
+
+# Proguard outputs
+android/config/mapping.txt
+android/config/seeds.txt
+android/config/unused.txt
