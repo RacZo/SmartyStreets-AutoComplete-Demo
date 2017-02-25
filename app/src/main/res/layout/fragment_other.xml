@@ -10,9 +10,22 @@
     tools:context="com.oscarsalguero.smartystreetsautocomplete.demo.OtherFragment">
 
     <ImageView
+        android:id="@+id/image_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         app:srcCompat="@drawable/ic_other" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_view"
+        android:layout_centerVertical="true"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:text="@string/rationale_other_fragment"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/text_size" />
 
 </RelativeLayout>

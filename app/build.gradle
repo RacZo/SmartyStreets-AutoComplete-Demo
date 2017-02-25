@@ -13,8 +13,8 @@ android {
         applicationId "com.oscarsalguero.smartystreetsautocomplete.demo"
         minSdkVersion 14
         targetSdkVersion 25
-        versionCode 3
-        versionName "1.2"
+        versionCode 4
+        versionName "1.3"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -31,12 +31,13 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
 
-    compile 'com.android.support:support-v4:25.1.1'
-    compile 'com.android.support:appcompat-v7:25.1.1'
-    compile 'com.android.support:design:25.1.1'
+    compile 'com.android.support:support-v4:25.2.0'
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile 'com.android.support:design:25.2.0'
     compile 'com.squareup.okhttp3:okhttp:3.6.0'
     compile 'com.squareup.okhttp3:logging-interceptor:3.6.0'
-    compile 'com.oscarsalguero:smartystreetsautocomplete:0.0.3'
+
+    compile 'com.oscarsalguero:smartystreetsautocomplete:1.0.0'
 
     testCompile 'junit:junit:4.12'
 }
